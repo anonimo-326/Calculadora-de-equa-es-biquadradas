@@ -39,8 +39,5 @@ function calcular(){
             document.getElementById('resultado').innerHTML = 'A equação não tem nenhuma solução.';
             MathJax.typesetPromise();
         }
-        else{
-            document.getElementById('resultado').innerHTML = 'A equação não tem nenhuma solução.';
-        }
     }
 }
