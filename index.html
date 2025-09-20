@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calculadora de equações biquadradas</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <div class="corpo">
+        <h3>Modelo de equação:</h3>
+        <h1>\(ax^4+bx^2+c=0\)</h1>
+        <p>Informe o valor de \(a\):</p>
+        <input type="number" id="a">
+        <p>Informe o valor de \(b\):</p>
+        <input type="number" id="b">
+        <p>Informe o valor de \(c\):</p>
+        <input type="number" id="c">
+        <button onclick="calcular()" class="botao">Calcular</button>
+        <p id="resultado"></p>
+    </div>
+</body>
+</html>

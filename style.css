@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 10px;   
+    background-color: #00AEEF;
+}
+.corpo{
+    text-align: center;
+    margin: 20px;
+    max-width: 450px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+}
+h3{
+    font-family: Arial;
+}
+p{
+    font-family: Arial;
+}
+.resultado{
+    height: 20px;
+    font-family: Arial;
+}
+input{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Arial;
+}
+.botao{
+    width: 156px;
+    height: 36px;
+    background-color: #00AEEF;
+    color: white;
+    border-radius: 5px;
+    font-family: Arial;
+    display: block;
+    margin: 10px auto;
+    margin-top: 20px;
+    transition: all ease-in-out 0.45s;
+}
+.botao:hover{
+    background-color: blue;
+}
