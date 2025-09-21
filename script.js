@@ -37,7 +37,10 @@ function calcular(){
         }
         if (y1 < 0 && y2 < 0){
             document.getElementById('resultado').innerHTML = 'A equação não tem nenhuma solução.';
-            MathJax.typesetPromise();
         }
     }
+    if (delta < 0){
+        document.getElementById('resultado').innerHTML = 'A equação não tem nenhuma solução.';
+    }
 }
+
