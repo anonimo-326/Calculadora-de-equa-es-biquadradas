@@ -22,6 +22,22 @@ h3{
 p{
     font-family: Arial;
 }
+a{
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: block;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    font-family: Arial;
+    background-color: #00AEEF;
+    color: white;
+    transition: all ease-in-out 0.45s;
+}
+a:hover{
+    background-color: blue;
+}
 .resultado{
     height: 20px;
     font-family: Arial;
@@ -31,7 +47,6 @@ input{
     height: 30px;
     border-radius: 5px;
     border: none;
-    outline: none;
     font-family: Arial;
     text-align: center;
 }
